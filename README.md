@@ -1,6 +1,3 @@
-## cartoon_gen
-Software para aplicar filtro cartoon a imgagenes.
-
 ## ¿En qué consiste el filtro *Cartoon*?
 
 El filtro *cartoon* transforma una fotografía o imagen estándar en una estética tipo caricatura o ilustración plana con contornos marcados mediante tres etapas principales sobre los píxeles (en formato RGB/RGBA):
