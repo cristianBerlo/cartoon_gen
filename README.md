@@ -18,6 +18,6 @@ El filtro *cartoon* transforma una fotografía o imagen estándar en una estéti
 | **Secuencial** | **C** (`gcc` / `clang`) | Un solo hilo de CPU y memoria principal (`RAM`) 
 | **Memoria compartida** | **C + OpenMP** | Múltiples hilos en uno o más núcleos sobre memoria compartida 
 | **Memoria distribuida** | **C + MPI** | Múltiples procesos con memoria privada comunicándose por mensajes 
-| **GPU** | **CUDA** (`nvcc`, C/C++) 
+| **GPU** | **CUDA** (`nvcc`, C/C++) | Miles de *threads* organizados en bloques y *grids* sobre memoria de video (`VRAM`)
 | **Híbrida** | **C + MPI + OpenMP** | Procesos MPI entre nodos + hilos OpenMP dentro de cada nodo 
 
